@@ -1,0 +1,57 @@
+{
+  "name": "john-doe-starter-site",
+  "private": true,
+  "description": "A personal site built on the bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "clean-serve": "gatsby clean && gatsby build && gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.30.3",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-catch-links": "^2.8.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.10.0",
+    "gatsby-plugin-nprogress": "^2.8.0",
+    "gatsby-plugin-offline": "^3.8.0",
+    "gatsby-plugin-preload-link-crossorigin": "^1.0.2",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sass": "^2.8.0",
+    "gatsby-plugin-sharp": "^2.12.2",
+    "gatsby-remark-images": "^3.9.0",
+    "gatsby-source-filesystem": "^2.9.1",
+    "gatsby-transformer-remark": "^2.14.0",
+    "gatsby-transformer-sharp": "^2.10.1",
+    "howler": "^2.2.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surudhb/gatsby-personal-site-template"
+  },
+  "bugs": {
+    "url": "https://github.com/surudhb/gatsby-personal-site-template/issues"
+  }
+}
