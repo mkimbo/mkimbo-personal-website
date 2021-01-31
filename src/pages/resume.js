@@ -12,17 +12,18 @@ export default ({ data }) => {
   return (
     <PageLayout>
       <SEO title="Resume" />
-      <PageTitle title="Resume">
+      <PageTitle title="Work Experience"></PageTitle>
+      <Container className="mt-5 pt-3 resume-container" fluid>
         &nbsp;
         <a href="../../resume.pdf" target="_blank" download>
+          {" "}
+          Download My Resume
           <FontAwesomeIcon
             style={{ fontSize: "2rem" }}
             icon={["fas", "file-download"]}
             className="icons file"
           />
         </a>
-      </PageTitle>
-      <Container className="mt-5 pt-3 resume-container" fluid>
         {history.map(({ node }) => (
           <div key={node.id}>
             <WorkHistory

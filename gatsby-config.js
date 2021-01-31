@@ -13,7 +13,7 @@ module.exports = {
     lastName: `Mkimbo`,
     description: `Online Portfolio for Jack Mkimbo`,
     occupation: `Software Developer`,
-    keywords: [`Jack`, `Mkimbo`, `Portfolio`, `Resume`, `Projects`, `Work`],
+    keywords: [`Jack`, `Mkimbo`, `Portfolio`, `Resume`, `Jack2dwrld`, `Work`],
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
@@ -91,8 +91,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Jack Mkimbo Online Portfolio`,
-        short_name: `Mkimbo`,
-        description: `This is my personal site.`,
+        short_name: `Jack2dwrld`,
+        description: `Personal website for software developer Jack Mkimbo.`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
