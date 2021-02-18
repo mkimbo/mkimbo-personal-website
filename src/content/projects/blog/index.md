@@ -20,5 +20,4 @@ Image loading & Optimization,
 SEO and Google Analytics,
 Online store ( under development ),
 Online audio player,
-Social Links,
-Easily Customizable
+Social Links
