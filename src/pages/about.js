@@ -34,9 +34,9 @@ export default ({ data }) => {
       <Container>
         <Image
           rounded
-          width="140"
-          height="140"
-          src={`../../icons/about.png`}
+          width="400"
+          height="300"
+          src={`../../icons/coder.gif`}
           alt={author}
         />
         <article className="w-75 m-auto pt-2 text-justify">

@@ -14,6 +14,7 @@ $themes: (
     textColor: $black,
     firstName: orange,
     lastName: $black,
+    typewriter: $black,
     linkHover: $gray-800,
     themeColor: $dark-blue,
     heartColor: pink,
@@ -37,6 +38,7 @@ $themes: (
     textColor: $gray-300,
     firstName: $gray-100,
     lastName: $empire-red,
+    typewriter: $white,
     titleColor: $white,
     hrefColor: $faded-red,
     themeColor: $dark-red,
@@ -83,6 +85,12 @@ $themes: (
 .first-name {
   @include themify($themes) {
     color: themed("firstName");
+  }
+}
+
+.typewriter {
+  @include themify($themes) {
+    color: themed("typewriter");
   }
 }
 
