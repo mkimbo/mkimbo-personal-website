@@ -7,7 +7,7 @@ const Typewriter = () => {
       this.toRotate = toRotate
       this.el = el
       this.loopNum = 0
-      this.period = parseInt(period, 10) || 2000
+      this.period = parseInt(period, 10) || 1000
       this.txt = ""
       this.tick()
       this.isDeleting = false
@@ -59,14 +59,14 @@ const Typewriter = () => {
   }, [refresh])
   return (
     <div className="typewriter">
-      <strong></strong>
+      <strong>is my name.</strong>
       <h6 className="writer">
         <strong
           className="typewrite"
           data-period="3000"
-          data-type='[ "I am software developer with a passion in Javascript.", 
-                "I create amazing stuff for web & mobile using React and Gatsby.", 
-                "I am currently looking for opportunities.", "Hire me and lets make the world a better place together" ]'
+          data-type='[ "Im a software developer proficient in Javascript.", 
+                "I create amazing web & mobile applications using React.", 
+                "I am currently looking for opportunities.", "Check out my github & resume below." ]'
         >
           <span className="wrap"></span>
         </strong>

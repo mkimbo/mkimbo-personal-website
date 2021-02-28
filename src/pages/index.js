@@ -14,12 +14,11 @@ export default ({ data }) => {
     <PageLayout>
       <SEO title="Home" />
       <Container className="text-center mt-5" fluid>
-        <Image fluid src={`../../icons/hello.gif`} alt={"freelancer"} />
-        {unemployed && (
-          <p className="mt-2">
-            <b> They call me </b>
-          </p>
-        )}
+        <Image
+          fluid
+          src={`../../icons/hello.gif`}
+          alt={"freelance developer"}
+        />
         <Container className="py-0 my-0">
           <h1 className="full-name">
             <span className="first-name">{firstName}</span>&nbsp;
