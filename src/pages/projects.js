@@ -17,7 +17,7 @@ export default ({ data }) => {
       <Container className="text-left">
         <section>
           {allProjects.map(({ node }) => (
-            <div key={node.id} className="p-3">
+            <div key={node.id} className="card project-card p-3">
               <ProjectLink
                 to={node.fields.slug}
                 featuredImages={featuredImageMap[node.fields.slug]}
@@ -54,7 +54,7 @@ export const query = graphql`
           fields {
             slug
           }
-          excerpt
+          excerpt(pruneLength: 170)
         }
       }
     }
