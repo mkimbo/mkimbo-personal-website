@@ -12,10 +12,11 @@ module.exports = {
     firstName: `Jack`,
     lastName: `Mkimbo`,
     description: `Online Portfolio for Jack Mkimbo`,
-    occupation: `Software Developer`,
+    occupation: `Full Stack Developer`,
     keywords: [
       `Jack Mkimbo`,
-      `Developer``Portfolio`,
+      `Developer`,
+      `Portfolio`,
       `Software`,
       `Jack2dwrld`,
       `Portfolio`,
@@ -23,12 +24,7 @@ module.exports = {
     siteUrl:
       process.env.URL || process.env.DEPLOY_URL || `http://localhost:8000`,
     unemployed: true,
-    designations: [
-      `Tech Enthusiast`,
-      `Software Developer`,
-      `IT Technician`,
-      `Patriotic Kenyan`,
-    ],
+    designations: [`Full Stack Developer`, `Tech Enthusiast`, `IT Technician`],
     readingList: [
       {
         title: `Sapiens: A Brief History of Humankind`,

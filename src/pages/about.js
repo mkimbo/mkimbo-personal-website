@@ -50,19 +50,18 @@ export default ({ data }) => {
           </p>
           <p className="i-5 mt-4 pt-2">
             Hello there! My name is <b>{`${author}`}</b>. I am a{" "}
-            <b>{occupation}</b> who grinds JavaScript to create awesome user
-            interfaces and visual experiences. I have a ton of experience
-            delivering front end products ranging from online portfolios ,
-            agency websites, e-commerce sites and mobile apps using technologies
-            such as HTML, CSS, SASS, Bootstrap, React, Gatsby and Graphql.
+            <b>{occupation}</b> who grinds JavaScript to create awesome web
+            products and solutions. I have a ton of experience delivering online
+            portfolios , agency websites, e-commerce sites and web apps using
+            technologies such as React, Gatsby, Bootstrap, Material UI, Graphql
+            etc
           </p>
 
           <p>
-            My front end skills are also complemented with a solid understanding
-            of backend infrastucture using technologies like Nodejs, Express,
-            MySQL and MongoDB. All my services and software products for both
-            web and mobile are customized and well taylored according to your
-            budget and specifications.
+            I also have valuable experience in backend development and databases
+            using technologies like Nodejs, Express, MySQL and MongoDB. All my
+            services and software products are customized and well taylored
+            according to your budget and specifications.
           </p>
 
           <p className="i-5">

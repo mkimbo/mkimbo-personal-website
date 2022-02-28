@@ -64,9 +64,9 @@ const Typewriter = () => {
         <strong
           className="typewrite"
           data-period="3000"
-          data-type='[ "Im a software developer proficient in Javascript.", 
-                "I create amazing web & mobile applications using React.", 
-                "I am currently looking for opportunities.", "Check out my github & resume below." ]'
+          data-type='[ "Im a Full Stack JavaScript Developer.", 
+                "I mainly work with NodeJs and React Js.", 
+                "I am currently open for work.", "Check out my github & resume below." ]'
         >
           <span className="wrap"></span>
         </strong>

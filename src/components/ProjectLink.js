@@ -16,13 +16,14 @@ export default ({ excerpt, featuredImages, tags, title, to }) => {
             ))}
         </Row>
         <h2 className="mt-5">{title}</h2>
+
+        {tags.map(tag => (
+          <Badge key={tag} pill variant="dark" className="px-2 mr-1">
+            {tag}
+          </Badge>
+        ))}
+        <p className="pt-3 text-justify">{excerpt}</p>
       </Link>
-      {tags.map(tag => (
-        <Badge key={tag} pill variant="dark" className="px-2 mr-1">
-          {tag}
-        </Badge>
-      ))}
-      <p className="pt-3 text-justify">{excerpt}</p>
     </Container>
   )
 }

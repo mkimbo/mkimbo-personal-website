@@ -3,6 +3,8 @@ company: "Freelancer"
 location: "Nairobi, Kenya"
 position: "Front End Developer"
 tags: ["React", "SASS", "Bootstrap", "Gatsby", "Node", "Graphql"]
+startDate: "2020-01-01"
+endDate: "2021-02-01"
 ---
 
 - In November 2019, I embarked on a journey to self-teach myself software development using the JavaScript programming language.</p>
@@ -14,5 +16,3 @@ tags: ["React", "SASS", "Bootstrap", "Gatsby", "Node", "Graphql"]
 * Diving deeper into React I discovered Gatsby JS and the JAMSTACK architecture. Gatsby is an incredibly fast React-based static-site generator that makes a React application 1000x better :).</p>
 
 * Gatsby enables easy intergration of Image Optimization, Search Engine Optimization (SEO) and data fetching capalibities using Graphql to react applications with some example projects on my github as well.</p>
-
-* I am now a freelance developer looking to put my skills to more practical use. Hire me for all your web presence needs.</p>

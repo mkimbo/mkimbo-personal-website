@@ -54,7 +54,7 @@ export const query = graphql`
             location
             position
             tags
-            startDate(formatString: "MMMM")
+            startDate(formatString: "MMMM, YYYY")
             endDate(formatString: "MMMM, YYYY")
           }
           fields {
