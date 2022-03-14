@@ -1,7 +1,7 @@
 ---
 title: "BitNorm Application"
 tags: ["Full Stack", "React", "Material UI", "Graph QL", "Mongo DB", "Node"]
-date: "2022-01-01"
+date: "2022-05-05"
 ---
 
 ![BitNorm Web Application](./bitnorm.PNG)
